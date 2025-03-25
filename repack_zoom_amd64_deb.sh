@@ -3,7 +3,7 @@
 set -e
 
 echo "Downloading zoom_amd64.deb"
-curl --output zoom_amd64.deb --location --silent "https://zoom.us/client/6.4.1.587/zoom_amd64.deb"
+curl --output zoom_amd64.deb --location --silent "https://zoom.us/client/latest/zoom_amd64.deb"
 
 echo "Unpacking zoom_amd64.deb"
 ar x zoom_amd64.deb
